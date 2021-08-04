@@ -1,0 +1,28 @@
+let dt = [
+  {
+    id: 1,
+    firstName: 'Phineas',
+    lastName: 'Franciottoi',
+    email: 'pfranciottoi0@hostgator.com',
+    password: 'y0pWrGzmDz',
+  },
+  {
+    id: 2,
+    firstName: 'Mikel',
+    lastName: 'Gregoli',
+    email: 'mgregoli1@amazon.de',
+    password: 'G0VfMCL',
+  },
+  {
+    id: 3,
+    firstName: 'Moira',
+    lastName: 'Mazzilli',
+    email: 'mmazzilli2@163.com',
+    password: '3GgdWoOfT',
+  },
+];
+
+let filterdata = dt.findIndex((value) => {
+  return value.id === 2;
+});
+console.log(filterdata);
